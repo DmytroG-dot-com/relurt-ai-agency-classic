@@ -1,0 +1,26 @@
+/* Brand palette drawn from Relurt AI Agency's main site. */
+:root {
+  --background: #ffffff;
+  --foreground: #192c61;
+  --primary: #24547d;
+  --secondary: #eef6f7;
+  --muted: #536477;
+  --border: #c6d7dd;
+  --accent: #4ae4df;
+  --accent-deep: #197f8e;
+  --card: #ffffff;
+  --deep: #0c1834;
+  --deep-2: #1a3358;
+  --button-ink: #0c1834;
+}
+
+.dark,
+body:has(.theme-toggle-input:checked) {
+  --background: #0c1834;
+  --foreground: #f8fafd;
+  --primary: #24547d;
+  --secondary: #1a3358;
+  --muted: #b8c4d4;
+  --border: #1a3358;
+  --card: #1a3358;
+}
